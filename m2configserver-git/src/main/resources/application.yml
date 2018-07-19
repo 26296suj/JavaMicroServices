@@ -9,3 +9,10 @@ spring:
           uri: https://github.com/26296suj/spring-cloudconfig-wa-tolls
           search-paths:
             - 'station*'
+          repos:
+            perf:
+              pattern:
+                - "*/perf"
+              uri: https://github.com/26296suj/spring-cloudconfig-wa-tools-perf
+              search-paths:
+                - 'station*'
