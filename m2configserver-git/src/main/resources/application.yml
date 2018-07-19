@@ -7,3 +7,5 @@ spring:
       server:
         git:
           uri: https://github.com/26296suj/spring-cloudconfig-wa-tolls
+          search-paths:
+            - 'station*'
